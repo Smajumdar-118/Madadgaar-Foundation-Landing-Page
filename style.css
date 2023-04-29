@@ -1,0 +1,382 @@
+.mbr-box__magnet {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.mbr-section--bg-adapted {
+    background-attachment: scroll;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mbr-section--full-height {
+    height: 100vh;
+}
+.mbr-section {
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+}
+.mbr-box {
+    display: table;
+    width: 100%;
+}
+.mbr-background-video, .mbr-background-video-preview {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mbr-box__magnet--sm-padding {
+    padding: 41px 0;
+}
+.mbr-overlay {
+    background: #221;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.mbr-section__container {
+    padding: 0;
+    position: relative;
+    z-index: 3;
+}
+.mbr-box__container {
+    height: 50%;
+}
+.mbr-box--stretched {
+    height: 100%;
+}
+.mbr-box {
+    display: table;
+    width: 100%;
+}
+.mbr-arrow {
+    bottom: 71px;
+    left: 0;
+    line-height: 1px;
+    padding: 0 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.section {
+    padding: 60px 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.clinton-caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: open sans,sans-serif;
+    color: #2d2d2d;
+    font-weight: 700;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+sup {
+    top: -0.5em;
+}
+sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+.statistics {
+    /* display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex; */
+    display: flex;
+    width: 100%;
+    margin: 0 0 3em;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+}
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+.statistics strong, .statistics b {
+    display: block;
+    font-size: 3em;
+    line-height: 1.1;
+    color: inherit!important;
+    font-weight: 500;
+    letter-spacing: -.025em;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.data-label{
+    
+        border: 2px solid #0a9af3;
+        padding: 10px 28px;
+        
+        margin: 17px 0px
+    
+}
+#Startups{
+    background-color: #53ccf7d6;
+}
+#fund{
+    background-color: #53f33bd6;
+}
+#country{
+    background-color: #f434bad6;
+}
+#alumni{
+    background-color: #e9ed0dd6;
+}
+
+
+#sayan::before{
+    content: "";
+    position: absolute;
+    background: url(https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg?w=2000)no-repeat center center/cover;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+
+.container img{
+    height: 300px;
+    margin: 40px 0px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+#services{
+    margin: 25px;
+    display: flex;
+    
+    
+}
+#services .box{
+    
+    border: 2px solid red;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: blanchedalmond;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#partner{
+    margin: 80px 0px;
+    /* height: 457px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  #p1{
+    width: 50%;
+  }
+
+  #contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg?w=2000)no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 35%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+#contact-box input,#contact-box textarea
+{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.back{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    
+}
+
+
+
+
+
+
+
