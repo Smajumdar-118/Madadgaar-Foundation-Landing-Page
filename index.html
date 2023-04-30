@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1068px)" href="phone.css">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -111,7 +112,37 @@
 
 
 
-    <section class="section">
+    <section id="services-container">
+        <h1 class="p-head text-center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://www.wuntumedia.com/wp-content/uploads/2021/11/food-donations-scaled-1.jpg" alt="">
+                <h2 class="s-head center">Heading 1</h2>
+                <p id="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae delectus eius ad dolorum sapiente, nihil illo odit tempora iste libero nostrum quia itaque? Consequatur quidem consectetur illo totam eveniet aperiam doloribus culpa tempora?</p>
+
+            </div>
+            <div class="box">
+                <img src="https://www.wuntumedia.com/wp-content/uploads/2021/11/food-donations-scaled-1.jpg">
+                <h2 class="s-head center">Heading 2</h2>
+                <p id="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae delectus eius ad dolorum sapiente, nihil illo odit tempora iste libero nostrum quia itaque? Consequatur quidem consectetur illo totam eveniet aperiam doloribus culpa tempora?</p>
+
+            </div>
+            <div class="box">
+                <img src="https://miro.medium.com/max/525/1*c9VJhvC-KhMt3MMX7WQ_wA.jpeg" alt="">
+                <h2 class="s-head center">Heading 3</h2>
+                <p id="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae delectus eius ad dolorum sapiente, nihil illo odit tempora iste libero nostrum quia itaque? Consequatur quidem consectetur illo totam eveniet aperiam doloribus culpa tempora?</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- <section class="section">
         <div class="container">
             <div class="row clinton">
                 <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight animated vcenter" data-wow-delay="0.2s"
@@ -163,17 +194,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="sayan">
-        <div class="row">
-            <div class="container" style="margin: 20px 80px;">
-                <h1>Join Madadgaar Foundation</h1>
-                <p style="font-size: 24px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad deserunt
+        <div class="row" id="join"> 
+            <div class="container"  >
+                <h1 style="margin-top: 35px;">Join Madadgaar Foundation</h1>
+                <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad deserunt
                     eveniet facilis odit quis quasi illum laborum minima nulla possimus. Saepe totam eligendi nesciunt
                     omnis consequuntur autem sit sequi aperiam.</p>
             </div>
-            <div class="container">
+            <div class="container" id="img1" >
                 <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-2662116.jpg&fm=jpg"
                     alt="">
             </div>
@@ -308,7 +339,7 @@
             </div>
             <div class="container">
 
-                <p style="font-size: 22px;font-weight: bold;">+91-1234567890</p>
+                <p >+91-1234567890</p>
             </div>
 
         </div>
@@ -318,7 +349,7 @@
             </div>
             <div class="container">
 
-                <p style="font-size: 22px;font-weight: bold;">+91-1234567890</p>
+                <p >+91-1234567890</p>
             </div>
 
         </div>
@@ -333,7 +364,7 @@
                     <label for="email" style="font-weight: bold;">Email id : </label>
                     <input type="text" email="email" id="email" placeholder="Enter Your Email id">
                 </div>
-                <div class="form-group">
+                <div class="form-group" id="mob">
                     <label for="phone" style="font-weight: bold;">Contact No. : </label>
                     <input type="text" phone="phone" id="phone" placeholder="Enter Your Contact No.">
                 </div>

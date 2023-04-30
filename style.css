@@ -205,12 +205,11 @@ footer{
     
 }
 #services .box{
-    
-    border: 2px solid red;
+    border: 2px solid #84b6ea;
     padding: 34px;
     margin: 3px 6px;
     border-radius: 28px;
-    background-color: blanchedalmond;
+    background-color: #b0e8e5;
 }
 #services .box img{
     height: 160px;
@@ -221,7 +220,16 @@ footer{
     margin: 80px 0px;
     /* height: 457px; */
 }
-
+#join{
+    margin: 20px 80px;
+}
+#para{
+    font-size: 24px;
+}
+.d-flex p{
+    font-size: 22px;
+    font-weight: bold;
+}
 
 
 

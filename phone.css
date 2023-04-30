@@ -1,0 +1,76 @@
+
+#services{
+    flex-direction: column;
+}
+#home{
+    height: 370px;
+    padding: 3px 60px;
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+#clients{
+    flex-wrap: wrap;
+    height: 687px;
+}
+#clients img{
+    width: 85px;
+    padding: 2px 6px;
+    height: auto;
+}
+#client-section{
+    position: relative;
+}
+#client-section::before{
+    height: 100%;
+}
+.client-items{
+    padding: 40px;
+}
+.p-head{
+    font-size: 36px;
+}
+#sayan{
+    /* display: flex; */
+    flex-wrap: wrap;
+    font-size: 12px;
+    flex-direction: column;
+    /* height: 800px; */
+    position: relative;
+}
+#sayan::before{
+    content: "";
+    position: absolute;
+    background: url(https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg?w=2000)no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+
+#join{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+#img1 img {
+    width: 112%;
+    height: 0%;
+}
+#para{
+    font-size: 20px;
+    width: 130%;
+}
+.form-group{
+    width: 200px;
+}
+.d-flex{
+    margin-right: 35px;
+}
+.d-flex p{
+    font-size: 19px;
+}
