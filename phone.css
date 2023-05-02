@@ -74,3 +74,30 @@
 .d-flex p{
     font-size: 19px;
 }
+#pcol{
+    flex-direction: column;
+    margin-left: 44px;
+}
+#menp{
+    padding: 0px 0px;
+}
+#partner {
+    margin: 46px 0px;
+}
+#logo {
+    width: 220px;
+    margin-left: 6rem;
+    margin-bottom: 40rem;
+}
+#det {
+    margin-left: -14rem;
+    margin-top: 23rem;
+}
+#contact{
+    
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        width: 100%;
+   
+}

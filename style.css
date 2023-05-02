@@ -217,7 +217,7 @@ footer{
     margin: auto;
 }
 #partner{
-    margin: 80px 0px;
+    margin: 123px 0px;
     /* height: 457px; */
 }
 #join{
@@ -230,8 +230,25 @@ footer{
     font-size: 22px;
     font-weight: bold;
 }
-
-
+.container img{
+    height: 300px;
+    margin: 17px 8px;
+}
+#menp{
+    padding: 0px 213px;
+}
+.fbox{
+    font-size: 22px;
+    font-weight: 500;
+    color: #2d2d2d;
+    padding: 4px 0px;
+}
+.card-text{
+    color: #777;
+    font-size: 17px;
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+}
 
 
 
@@ -348,7 +365,7 @@ footer{
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.2;
 
 
 }
@@ -381,7 +398,15 @@ html{
     left: 0;
     
 }
+#logo{
 
+    width: 300px;
+    margin-left: 13rem;
+    margin-bottom: 9rem;
+}
+#det{
+    margin-left: 30rem;
+}
 
 
 
