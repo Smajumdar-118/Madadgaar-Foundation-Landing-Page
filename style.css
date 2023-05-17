@@ -407,7 +407,28 @@ html{
 #det{
     margin-left: 30rem;
 }
+#management::before{
+    content: "";
+    position: absolute;
+    background: url("https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?resize=768,574")no-repeat center center/cover;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
 
+
+}
+#mentor{
+    margin-top: 6rem;
+}
+#mgp{
+    height: 390px;
+    margin: 17px 8p
+}
+#mgt{
+    padding: 20px 144px;
+    width: 130%;
+}
 
 
 

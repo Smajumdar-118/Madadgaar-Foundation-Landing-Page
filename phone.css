@@ -101,3 +101,36 @@
         width: 100%;
    
 }
+#management{
+    display: flex;
+    flex-direction: column;
+}
+#mg{
+    display: flex;
+    flex-direction: column;
+}
+#management::before{
+    content: "";
+    position: absolute;
+    background: url("https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?resize=768,574")no-repeat center center/cover;
+    height: 115%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+
+
+}
+#mentor{
+    margin-top: 2rem;
+}
+#mgp{
+    height: 390px;
+    margin: 17px 8p
+}
+#mgt{
+    padding: 0px 0px;
+    width: 100%;
+}
+#mgt button{
+    
+}
