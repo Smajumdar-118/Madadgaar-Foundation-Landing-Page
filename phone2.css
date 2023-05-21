@@ -55,7 +55,8 @@
 #join{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    width: 70%;
+    
 }
 #img1 img {
     width: 112%;
@@ -75,12 +76,14 @@
     font-size: 19px;
 }
 #pcol{
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-left: 44px;
+    flex-wrap: wrap;
 }
 #pcol2{
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-left: 44px;
+    flex-wrap: wrap;
 }
 #menp{
     padding: 0px 0px;
@@ -88,14 +91,17 @@
 #partner {
     margin: 46px 0px;
 }
+#df{
+    display: block;
+}
 #logo {
     width: 220px;
-    margin-left: 6rem;
-    margin-bottom: 40rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem
 }
 #det {
-    margin-left: -14rem;
-    margin-top: 23rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
 }
 #contact{
     
@@ -118,7 +124,7 @@
     position: absolute;
     background: url("https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?resize=768,574")no-repeat center center/cover;
     /* height: 115%; */
-    height: 60rem;
+    height: 53rem;
     width: 100%;
     z-index: -1;
     opacity: 0.2;
@@ -126,7 +132,7 @@
 
 }
 #mentor{
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 #mgp{
     height: 390px;
@@ -138,4 +144,17 @@
 }
 #mgt button{
     
+}
+
+/* .mbr-box {
+    display: table;
+    width: 100%;
+    height: 1000px;
+  
+} */
+#df{
+    text-align: center;
+}
+#icon{
+    justify-content: center;
 }
