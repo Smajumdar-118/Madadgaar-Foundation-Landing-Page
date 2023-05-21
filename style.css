@@ -363,7 +363,7 @@ footer{
     position: absolute;
     background: url(https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg?w=2000)no-repeat center center/cover;
     height: 100%;
-    width: 108%;
+    width: 100%;
     z-index: -1;
     opacity: 0.2;
 
@@ -406,7 +406,10 @@ html{
     margin-bottom: 9rem;
 }
 #det{
-    margin-left: 27rem;
+    margin-left: 10rem;
+}
+#det2{
+    margin-left: 10rem;
 }
 #management::before{
     content: "";
