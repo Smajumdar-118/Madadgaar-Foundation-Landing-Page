@@ -441,6 +441,31 @@ html{
 .d-flex2{
     display: flex;
 }
+#speaker{
+    display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 5rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+#speaker img{
+    max-width: 100%;
+  height: auto;
+}
+#speaker div{
+    width: 600px;
+    text-align: center;
+}
+#speaker p{
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 24px;
+    color: grey;
+}
 
 
 

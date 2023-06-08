@@ -158,3 +158,17 @@
 #icon{
     justify-content: center;
 }
+#speaker{
+    display: block;
+    font-size: 80%;
+}
+#speaker p{
+    position: relative;
+    margin: 0rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+}
+#speaker div{
+    width: 100%;
+    
+}
