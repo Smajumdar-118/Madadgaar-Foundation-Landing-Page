@@ -172,3 +172,17 @@
     width: 100%;
     
 }
+#state{
+    display: block;
+    font-size: 80%;
+}
+#state p{
+    position: relative;
+    margin: 0rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+}
+#state div{
+    width: 100%;
+    
+}

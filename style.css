@@ -451,6 +451,16 @@ html{
   margin: 0 auto;
   font: 500 100%/1.5 system-ui;
 }
+#state{
+    display: grid;
+  padding: 0rem;
+  grid-template-columns: 300px 1fr;
+  gap: 9rem;
+  align-items: center;
+  max-width: 860px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
 #speaker img{
     max-width: 100%;
   height: auto;
@@ -459,6 +469,10 @@ html{
     width: 600px;
     text-align: center;
 }
+#state div{
+    width: 400px;
+    
+}
 #speaker p{
     font-weight: 500;
     font-style: italic;
@@ -466,6 +480,19 @@ html{
     font-size: 24px;
     color: grey;
 }
+
+
+
+#state h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
+
+
+
 
 
 
